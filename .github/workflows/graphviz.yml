@@ -19,5 +19,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: resultat-graphviz
-          path: *.svg
+          path: "*.svg"
 
