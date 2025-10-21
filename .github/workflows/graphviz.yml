@@ -13,11 +13,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Lancement graphviz
-        run: ./NOM-SCRIPT.sh g1
+        run: ./run1.sh g1
 
       - name: Upload du résultat
         uses: actions/upload-artifact@v4
         with:
           name: resultat-graphviz
-          path: chemin/vers/le/fichier
+          path: graph.png
 
